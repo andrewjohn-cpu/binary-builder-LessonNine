@@ -25,48 +25,51 @@ document.addEventListener("DOMContentLoaded", () => {
 
           function selectRecipeItem() {
             function openModal() {
-              let recipeModalContent = document.querySelector("#modal-info");
+              let recipeModalInfo = document.querySelector(".modal-info");
               recipeDetailModal.style.display = "block";
               let recipeDetails = "";
-              recipeDetails =
-                recipeDetails +
-                `
-                   <div class="image-container">
+              recipeDetails += `
+                    <div class="image-container">
                       <img src="${recipe.recipeImage}" />
-                   </div>
-                   <div class="recipe-information">
+                    </div>
+                    <div class="recipe-information">
                       <h5>${recipe.recipeName}</h5>
-                     <div class="ingredients-section">
+                      <div class="ingredients-section">
                         <h2>Ingredients</h2>
-                        <ul>`;
+                        <ul>
+                    `;
               recipe.recipeIngredient.forEach((ingredient) => {
-                recipeDetails =
-                  recipeDetails +
-                  `<li>${ingredient}</li> </ul>
-                      </div>`;
+                recipeDetails += `
+                          <li>${ingredient}</li>
+                  `;
               });
 
-              recipeDetails =
-                recipeDetails +
-                `<div class="preparation-section">
-                        <h2>Preparation Instruction</h2>
-                        <ol>`;
+              recipeDetails += `
+                        </ul>
+                      </div>
+                      <div class="preparation-section">
+                       <h2>Preparation Instruction</h2>
+                       <ol>
+                `;
+              recipe.recipePreparation.forEach((instruction) => {
+                recipeDetails += `<li>${instruction}</li>`;
+              });
 
-              recipe.recipePreparation.forEach((preparation) => {
-                recipeDetails =
-                  recipeDetails +
-                  `<li>${preparation}</li> </ul>
-                    </div>
-                    </ol>
+              recipeDetails += `
+                       </ol>
                       </div>
                     </div>
+                `;
+
+              recipeDetails += `
                     <div class="modify-buttons" id="modify-buttons">
-                      <button type="btn button" class="delete-button" id="delete-button">Delete</button>&nbsp;
+                      <button type="btn button" class="delete-button" id="delete-button" data-id=${recipe.id}>Delete</button>&nbsp;
                       <button type="btn button" class="edit-button" data-bs-toggle="modal"
                           data-bs-target="#updateRecipeForm" id="edit-button">Edit</button>
-                    </div>`;
-              });
-              recipeModalContent.innerHTML = recipeDetails;
+                    </div>
+                `;
+
+              recipeModalInfo.innerHTML = recipeDetails;
             }
 
             function closeModal() {
