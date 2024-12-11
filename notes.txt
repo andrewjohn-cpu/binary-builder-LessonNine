@@ -1,0 +1,23 @@
+-dynamic
+-event listeners
+-functions
+-variables and data types
+-dom manipulation
+-arrays and array methods
+-client side javascript
+-objects
+-lexical scoping/closures
+-scopes - global, functional/local, block
+
+concepts needed
+-event listeners
+-dom manipulation, createElement
+-functions
+-conditional statements
+-variables and data types
+
+dealing with data
+-db.json 
+-asynchronous javascript, promises, async/await, setTimeOutt(()=>,time), lazy-loading
+-fetch("<endpoint_url").then((response)=>response.json()).then(data=>data)
+-event listeners - click, submit, domcontentloaded

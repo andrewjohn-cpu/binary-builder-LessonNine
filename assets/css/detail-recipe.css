@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 20px;
+}
+
+.recipe-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.recipe-title h1 {
+    text-align: center;
+    margin-left: 20px;
+    text-transform: capitalize;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 800;
+    color: #000;
+}
+
+.recipe-image {
+    margin-top: 20px;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url("/assets/images/strawberry-cake.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 7px;
+}
+
+.recipe-image img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.ingredients-section {
+    margin-top: 20px;
+}
+
+.ingredients-section h2 {
+    font-size: 27px;
+    font-family: sans-serif;
+    font-weight: 800;
+    color: #000;
+}
+
+.ingredients-section ul {
+    padding: 13px;
+    line-height: 30px;
+}
+
+.ingredients-section ul li {
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+
+.preparation-section {
+    margin-top: 20px;
+}
+
+.preparation-section h2 {
+    font-size: 27px;
+    font-family: sans-serif;
+    font-weight: 800;
+    color: #000;
+}
+
+.preparation-section ol {
+    padding: 13px;
+    line-height: 30px;
+}
+
+.preparation-section ol li {
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+
+.share-recipe-button {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.share-recipe-button button {
+    padding: 8px;
+    border-radius: 5px;
+    background-color: transparent;
+    outline: none;
+    border: 0.5px solid #000;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 300;
+    width: 200px;
+}

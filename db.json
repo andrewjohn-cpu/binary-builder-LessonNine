@@ -1,0 +1,64 @@
+{
+    "recipes": [
+        {
+            "id": 1,
+            "recipeName": "fish",
+            "recipeImage": "./assets/images/strawberry-cake.jpg",
+            "recipeIngredient": [
+                "400g graham crackers",
+                "150g unsalted butters, melted",
+                "300g marshmallows"
+            ],
+            "recipePreparation": [
+                "To prepare crust add graham crackers to a food processor and process until you reach fine crumbs. Add melted butter and pulse 3-4 times to coat crumbs with butter.",
+                "To prepare crust add graham crackers to a food processor and process until you reach fine crumbs. Add melted butter and pulse 3-4 times to coat crumbs with butter.",
+                "To prepare crust add graham crackers to a food processor and process until you reach fine crumbs. Add melted butter and pulse 3-4 times to coat crumbs with butter."
+            ]
+        },
+        {
+            "id": 2,
+            "recipeName": "rice",
+            "recipeImage": "./assets/images/strawberry-cake.jpg",
+            "recipeIngredient": [
+                "400g graham crackers",
+                "150g unsalted butters, melted",
+                "300g marshmallows"
+            ],
+            "recipePreparation": [
+                "To prepare crust add graham crackers to a food processor and process until you reach fine crumbs. Add melted butter and pulse 3-4 times to coat crumbs with butter.",
+                "To prepare crust add graham crackers to a food processor and process until you reach fine crumbs. Add melted butter and pulse 3-4 times to coat crumbs with butter.",
+                "To prepare crust add graham crackers to a food processor and process until you reach fine crumbs. Add melted butter and pulse 3-4 times to coat crumbs with butter."
+            ]
+        },
+        {
+            "id": 3,
+            "recipeName": "minced-meat",
+            "recipeImage": "./assets/images/strawberry-cake.jpg",
+            "recipeIngredient": [
+                "400g graham crackers",
+                "150g unsalted butters, melted",
+                "300g marshmallows"
+            ],
+            "recipePreparation": [
+                "To prepare crust add graham crackers to a food processor and process until you reach fine crumbs. Add melted butter and pulse 3-4 times to coat crumbs with butter.",
+                "To prepare crust add graham crackers to a food processor and process until you reach fine crumbs. Add melted butter and pulse 3-4 times to coat crumbs with butter.",
+                "To prepare crust add graham crackers to a food processor and process until you reach fine crumbs. Add melted butter and pulse 3-4 times to coat crumbs with butter."
+            ]
+        },
+        {
+            "id": 4,
+            "recipeName": "minced-meat",
+            "recipeImage": "./assets/images/strawberry-cake.jpg",
+            "recipeIngredient": [
+                "400g graham crackers",
+                "150g unsalted butters, melted",
+                "300g marshmallows"
+            ],
+            "recipePreparation": [
+                "To prepare crust add graham crackers to a food processor and process until you reach fine crumbs. Add melted butter and pulse 3-4 times to coat crumbs with butter.",
+                "To prepare crust add graham crackers to a food processor and process until you reach fine crumbs. Add melted butter and pulse 3-4 times to coat crumbs with butter.",
+                "To prepare crust add graham crackers to a food processor and process until you reach fine crumbs. Add melted butter and pulse 3-4 times to coat crumbs with butter."
+            ]
+        }
+    ]
+}
